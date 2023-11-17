@@ -6,8 +6,7 @@ newDefaultPoller()函数属于Poller类中的静态函数 为什么要单独创�
 
 */
 #include "Poller.h"
-//#include"poll.h"
-//#include"epoll.h"
+#include "EpollPoller.h"
 #include<stdlib.h>
 
 Poller* Poller::newDefaultPoller(EventLoop* Loop){
@@ -17,6 +16,6 @@ Poller* Poller::newDefaultPoller(EventLoop* Loop){
     }
     else
     {
-        return nullptr;//生成epoll的实例 
+        return new EpollPoller(Loop);//生成epoll的实例 
     }
 }

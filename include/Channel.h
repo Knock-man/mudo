@@ -8,6 +8,8 @@
 
 #include<memory>
 #include<functional>
+
+class EventLoop;
 /*
 理清楚：EvevntLoop、Channel、Poller之间的关系 =》 Reactor模型上对应 Demultiplex
 */

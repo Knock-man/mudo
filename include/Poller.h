@@ -1,5 +1,4 @@
-#ifndef POLLER_H
-#define POLLER_H
+#pragma once
 
 #include "noncopyable.h"
 #include "Channel.h"
@@ -8,7 +7,11 @@
 
 #include<vector>
 #include<unordered_map>
+
 //muduo库中多路事件分发器和核心IP复用模块
+class Channel;
+class EventLoop;
+
 class Poller:noncopyable
 {
 public:
@@ -36,5 +39,3 @@ protected:
 private:
      EventLoop* ownerLoop_;//定义poller所属的事件循环EventLoop
 };
-
-#endif

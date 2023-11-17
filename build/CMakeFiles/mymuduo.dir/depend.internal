@@ -3,8 +3,10 @@
 
 CMakeFiles/mymuduo.dir/src/Channel.cpp.o
  ../include/Channel.h
+ ../include/CurrentThread.h
  ../include/EventLoop.h
  ../include/Logger.h
+ ../include/Poller.h
  ../include/Timestamp.h
  ../include/noncopyable.h
  /home/xbj/FuxianCode/fuxian_mudo/mudo/src/Channel.cpp
@@ -13,6 +15,8 @@ CMakeFiles/mymuduo.dir/src/CurrentThread.cpp.o
  /home/xbj/FuxianCode/fuxian_mudo/mudo/src/CurrentThread.cpp
 CMakeFiles/mymuduo.dir/src/DefaultPoller.cpp.o
  ../include/Channel.h
+ ../include/CurrentThread.h
+ ../include/EpollPoller.h
  ../include/EventLoop.h
  ../include/Logger.h
  ../include/Poller.h
@@ -21,6 +25,7 @@ CMakeFiles/mymuduo.dir/src/DefaultPoller.cpp.o
  /home/xbj/FuxianCode/fuxian_mudo/mudo/src/DefaultPoller.cpp
 CMakeFiles/mymuduo.dir/src/EpollPoller.cpp.o
  ../include/Channel.h
+ ../include/CurrentThread.h
  ../include/EpollPoller.h
  ../include/EventLoop.h
  ../include/Logger.h
@@ -38,6 +43,7 @@ CMakeFiles/mymuduo.dir/src/Logger.cpp.o
  /home/xbj/FuxianCode/fuxian_mudo/mudo/src/Logger.cpp
 CMakeFiles/mymuduo.dir/src/Poller.cpp.o
  ../include/Channel.h
+ ../include/CurrentThread.h
  ../include/EventLoop.h
  ../include/Logger.h
  ../include/Poller.h
